@@ -19,7 +19,7 @@ This is it.
 
 ## Large animals are bigger!
 
-{% for animal in sit.data.animals %}
+{% for animal in site.data.animals %}
 {% if animal.size == "large" %}- <strong style."color: {{ animal.color }};">{{ animal.name }}</strong>
 {% else %}- <small>{{ animal.name }}</small>
 {% endif %}
